@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart | FreshGo Grocery Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">FreshGo</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cart-section">
+    <h1>Your Shopping Cart</h1>
+    <div class="cart-container">
+      <!-- Item 1 -->
+      <div class="cart-item">
+        <img src="images/apple.jpg" alt="Apples" />
+        <div class="item-details">
+          <h3>Fresh Apples</h3>
+          <p>₹120 / kg</p>
+          <input type="number" value="1" min="1" class="qty" />
+        </div>
+        <div class="item-price">₹120</div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="cart-item">
+        <img src="images/milk.jpg" alt="Milk" />
+        <div class="item-details">
+          <h3>Fresh Milk</h3>
+          <p>₹25 / 500ml</p>
+          <input type="number" value="2" min="1" class="qty" />
+        </div>
+        <div class="item-price">₹50</div>
+      </div>
+
+      <!-- Total -->
+      <div class="cart-total">
+        <h3>Total: ₹170</h3>
+        <a href="#" class="btn">Proceed to Checkout</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FreshGo Grocery Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
